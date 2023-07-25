@@ -77,3 +77,16 @@ body {
 .testimonials p {
     margin: 0;
 }
+
+.border-top {
+    border-top: 5px solid #5512ff;
+}
+
+.border-bottom {
+    border-bottom: 5px solid #5512ff;
+}
+
+.border-all {
+    border-top: 5px solid #5512ff;
+    border-bottom: 5px solid #5512ff;
+}
