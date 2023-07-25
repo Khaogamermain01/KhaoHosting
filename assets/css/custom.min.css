@@ -53,17 +53,23 @@ body {
 
 .testimonials .quote {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .testimonials .quote-text {
-    font-size: 20px;
+    font-size: 50px;
     margin: 0;
+    padding: 0;
 }
 
 #credits-testimonials {
     font-size: 20px;
-    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .testimonials p {
