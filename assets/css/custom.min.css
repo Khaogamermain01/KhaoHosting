@@ -1,5 +1,7 @@
 * {
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -18,6 +20,8 @@ body {
 
 .image-text-section {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .image-text-section img {
@@ -37,13 +41,16 @@ body {
     border: 3px solid #5512ff !important;
 }
 
-.card, card-title {
-    color:white;
+.card,
+.card-title {
+    color: white;
     background-color: #1c1c20;
 }
 
 .testimonials {
-    margin-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .testimonials h1,
@@ -80,13 +87,41 @@ body {
 
 .border-top {
     border-top: 5px solid #5512ff;
+    padding-top: 30px;
 }
 
 .border-bottom {
     border-bottom: 5px solid #5512ff;
+    padding-bottom: 30px;
 }
 
 .border-all {
     border-top: 5px solid #5512ff;
     border-bottom: 5px solid #5512ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+.container {
+    max-width: 1170px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+/* Add your custom styles for the footer here if needed */
