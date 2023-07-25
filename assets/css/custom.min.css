@@ -1,0 +1,43 @@
+* {
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c20;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+}
+
+.navbar .btn-primary:hover {
+    background-color: #5512ff;
+    border-color: #5512ff;
+}
+
+.image-text-section {
+    text-align: center;
+}
+
+.image-text-section img {
+    display: block;
+}
+
+.btn {
+    background-color: #1c1c20 !important;
+    color: white;
+    border: 3px solid #5512ff !important;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5512ff !important;
+    color: white;
+    border: 3px solid #5512ff !important;
+}
+
+.card, card-title {
+    color:white;
+    background-color: #1c1c20;
+}

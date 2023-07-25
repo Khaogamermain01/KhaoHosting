@@ -1,0 +1,218 @@
+.brand-border-y,
+hr.brand {
+    border-top: 3px solid var(--brand-color) !important
+}
+
+:root {
+    --background: #1c1c20;
+    --brand-color: #dfc590;
+    --secondary: #252422;
+    --section-color: #212126
+}
+
+body,
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.background {
+    background: var(--background)
+}
+
+.secondary {
+    background: var(--secondary)
+}
+
+.section {
+    background: var(--section-color)
+}
+
+.brand-btn-color,
+.brand-btn-color-tl {
+    background: var(--secondary) !important;
+    color: #fff !important;
+    border: 3px solid var(--brand-color) !important
+}
+
+.masthead {
+    max-height: 80vh
+}
+
+.page-banner {
+    max-height: 240px
+}
+
+.mcrow {
+    transform: translateY(-75px)
+}
+
+.brand-btn-color {
+    background: linear-gradient(to right, var(--secondary), #3d372c)
+}
+
+.brand-btn-color-tl {
+    background: linear-gradient(to right, var(--secondary), #3d372c);
+    border-right: hidden !important;
+    border-bottom: hidden !important
+}
+
+.brand-btn-color-tr {
+    background: var(--secondary) !important;
+    background: linear-gradient(to right, var(--secondary), #3d372c);
+    color: #fff !important;
+    border: 3px solid var(--brand-color) !important;
+    border-left: hidden !important;
+    border-bottom: hidden !important
+}
+
+hr.brand {
+    opacity: 1
+}
+
+.brand-btn-color-tl:hover,
+.brand-btn-color:hover {
+    background: var(--brand-color) !important;
+    color: var(--secondary) !important
+}
+
+.brand-text-color {
+    color: var(--brand-color)
+}
+
+.secondary-text-color {
+    color: var(--secondary) !important
+}
+
+.brand-border {
+    border: 3px solid var(--brand-color) !important
+}
+
+.brand-border-x {
+    border-right: 3px solid var(--brand-color) !important;
+    border-left: 3px solid var(--brand-color) !important
+}
+
+.brand-border-y {
+    border-bottom: 3px solid var(--brand-color) !important
+}
+
+.brand-border-bottom,
+.navbar-border-bottom>.navbar-nav>.nav-link:hover {
+    border-bottom: 1px solid var(--brand-color) !important
+}
+
+.navbar-border-bottom>.navbar-nav>.nav-link:hover {
+    margin-bottom: -1px
+}
+
+.brand-border-bottom-3px {
+    border-bottom: 3px solid var(--brand-color) !important
+}
+
+.secondary-border-bottom-3px {
+    border-bottom: 3px solid var(--secondary) !important
+}
+
+.brand-border-top {
+    border-top: 1px solid var(--brand-color) !important
+}
+
+.brand-border-top-3px {
+    border-top: 3px solid var(--brand-color) !important
+}
+
+.brand-background-color {
+    background: var(--brand-color)
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0, 0, 0, .4)
+}
+
+.transform:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+.nav-link:hover {
+    color: var(--brand-color) !important
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important
+}
+
+.accordion-button:focus {
+    outline: 0 !important;
+    box-shadow: none
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)
+}
+
+.review-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical
+}
+
+.trustpilot-text {
+    color: #00b67a
+}
+
+.discord-text {
+    color: #5865f2
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--brand-color);
+    border-radius: 5px;
+    border: 2px solid var(--secondary) !important
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px
+}
+
+.avatar {
+    margin-top: -115px
+}
+
+.avatar-wrapper {
+    width: 200px;
+    height: 200px
+}
+
+img {
+    object-position: center;
+    object-fit: cover
+}
+
+.custom-select {
+    background: var(--background) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px
+}
+
+@media (max-width:768px) {
+    .masthead {
+        max-height: 35vh
+    }
+
+    .mcrow {
+        transform: translateY(0)
+    }
+
+    .responsive-icon {
+        font-size: 16px
+    }
+
+    #myCarousel .carousel-item {
+        height: 300px
+    }
+}
