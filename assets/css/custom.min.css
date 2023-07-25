@@ -122,4 +122,8 @@ footer ul li {
     margin-bottom: 10px;
 }
 
+.nav-link {
+    color: #9a95a1 !important;
+}
+
 /* Add your custom styles for the footer here if needed */
