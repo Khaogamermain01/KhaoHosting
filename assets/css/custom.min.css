@@ -52,24 +52,26 @@ body {
 }
 
 .testimonials .quote {
-    font-size: 30px;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .testimonials .quote-text {
-    font-size: 50px;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.review-text {
+    font-size: 25px;
     margin: 0;
     padding: 0;
 }
 
 #credits-testimonials {
     font-size: 20px;
-    margin-left: 20px;
-    text-align: left;
-    line-height: 1.5;
+    margin-top: 20px;
 }
 
 .testimonials p {
